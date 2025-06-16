@@ -29,31 +29,7 @@
     <script>
       const { createApp } = Vue;
 
-      const app = createApp({
-        data() {
-          return {
-            message: "Hello it works",
-            newCharacter: { name: "" },
-            listOfCharacters: [
-              { name: "Appa" },
-              { name: "Aang" },
-              { name: "Zuko" },
-            ],
-            count: 0,
-            incrementAmount: 8,
-          };
-        },
-        methods: {
-          incrementCount() {
-            this.count += this.incrementAmount;
-          },
-        },
-        watch: {
-          count(newValue) {
-            console.log("newVaue: ", newValue);
-          },
-        },
-      });
+      const app = createApp({});
 
       app.mount("#app");
     </script>
