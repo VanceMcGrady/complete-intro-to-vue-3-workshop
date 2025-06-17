@@ -4,7 +4,7 @@ import BaseCounter from './components/BaseCounter.vue'
 
 <template>
   <main>
-    <div></div>
+    <router-view />
     <BaseCounter />
   </main>
 </template>
