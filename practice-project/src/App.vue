@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import BaseCounter from './components/BaseCounter.vue'
+import BaseCounter from './views/BaseCounter.vue'
 </script>
 
 <template>

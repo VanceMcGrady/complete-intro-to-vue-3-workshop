@@ -1,4 +1,4 @@
-import BaseCounter from './components/BaseCounter.vue'
+import BaseCounter from './views/BaseCounter.vue'
 
 export const routes = [
   {
